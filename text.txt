@@ -1,0 +1,28 @@
+MERN Auth Project Summary
+
+Work Completed
+
+1.  Backend Setup (Node.js + Express)
+    -   Initialized Express server.
+    -   Connected MongoDB using Mongoose.
+    -   Created User model.
+    -   Implemented /api/auth/register and /api/auth/login.
+    -   Added password hashing with bcrypt.
+    -   Added JWT token generation on login.
+    -   Added middleware to verify token.
+2.  Frontend Setup (React)
+    -   Created Register and Login components.
+    -   Connected frontend to backend API.
+    -   Fixed CORS and proxy issues.
+    -   Added protected Dashboard page.
+    -   Dashboard shows logged-in user’s info.
+    -   Implemented redirect after login using useNavigate().
+3.  Testing
+    -   Tested Register API using UI & Postman.
+    -   Tested Login to get JWT token.
+    -   Tested protected route using Authorization header.
+4.  Final Flow
+    -   User registers → data saved in DB.
+    -   User logs in → token generated → saved in localStorage.
+    -   After login → redirect to Dashboard.
+    -   Dashboard fetches and displays user info using token.
